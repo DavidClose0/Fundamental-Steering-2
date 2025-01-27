@@ -31,8 +31,8 @@ public class Player : Kinematic
         }
 
         // Apply drag
-        linearVelocity *= linearDrag;
-        angularVelocity *= angularDrag;
+        linearVelocity *= Mathf.Pow(linearDrag, Time.deltaTime);
+        angularVelocity *= Mathf.Pow(angularDrag, Time.deltaTime);
 
         base.Update();
     }

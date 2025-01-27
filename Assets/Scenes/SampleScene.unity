@@ -592,8 +592,8 @@ MonoBehaviour:
   myTarget: {fileID: 0}
   maxLinearAcceleration: 10
   maxAngularAcceleration: 1000
-  linearDrag: 0.95
-  angularDrag: 0.95
+  linearDrag: 0.2
+  angularDrag: 0.1
 --- !u!1 &288688607
 GameObject:
   m_ObjectHideFlags: 0
